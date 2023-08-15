@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Lora&family=Open+Sans:ital,wght@1,800&family=Raleway:wght@400;700&display=swap');
+
+
+/* formatear documento shift alt f */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100vw;
+    font-family: 'Raleway', sans-serif;
+    background-color:#F5F5F5;
+  
+}
+
+.container {
+    width: 100%;
+}
+
+.header_container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    padding: 30px 0;
+    margin-bottom: 35px;
+}
+
+.header_logo {
+    display: flex;
+}
+
+.header_titulo {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.header_menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0px, 32px, 0px;
+    text-decoration: none;
+
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.presentacion_container {
+    display: flex;
+    max-width: 1, 136px;
+    width: 80%;
+    height: 368px;
+    align-items: center;
+    margin: 0 auto;
+    gap: 17px;
+}
+
+.presentacion_articulo{
+    width: 70%;
+    
+}
+
+.presentacion_titulo {
+    font-weight: bolder;
+    color: #464646;
+    font-size: 43px;
+    margin-bottom: 30px;
+    
+}
+
+.sobremi_parrafo{
+    width: 70%;
+}
+
+.presentacion_foto {
+    width: 30%;
+}
+
+.presentacion_foto img {
+    width: 100%;
+    
+}
+
+
+.presentacion_menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.sobremi_container {
+    background-color: #EAF2FD;
+   
+    
+}
+
+.sobremi_titulo {
+    text-align: start;
+    padding: 15px 0;
+
+}
+
+.sobremi_articulo{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sobremi_articulo p {
+    width: 60%;
+    padding: 15px 0;
+    
+}
+
+.sobremi_firma{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.skills_section {
+    margin-bottom: 70px;
+}
+
+.skills_container {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+   
+
+}
+
+.skills_titulo {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.skills_box {
+    width: 100%;
+    background-color: white;
+    height: 150px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+.skills_box h3 {
+    margin-top: 10px;
+}
+
+.skills_box img {
+    width: 25px;
+}
+
+.formacionacademica_container {
+    background-color: #EAF2FD;
+    padding: 50px 0;
+    
+}
+
+.formacionacademica_titulo {
+    margin-bottom: 30px;
+}
+
+
+.formacionacademica_box {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.formacionacademica_titulo {
+    text-align: center;
+}
+
+.fa_box img {
+    width: 100%;
+}
+
+.proyecto_section{
+    width: 80%;
+    margin: 0 auto;
+}
+.proyecto_titulo{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.proyecto_box,.proyecto_box1{
+    display: flex;
+    margin: 0 auto;
+}
+
+.proyecto_box.proyecto_img,.proyecto_box1.proyecto_img {
+    width: 60%;
+}
+.proyecto_box.proyecto_btn,.proyecto_box1.proyecto_btn {
+    width: 40%;
+}
+
+
+.proyecto_box img{
+    width: 100%;
+}
+
+.proyecto_box1 img{
+    width: 100%;
+}
+
