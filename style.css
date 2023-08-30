@@ -244,10 +244,21 @@ body {
     width: 100%;
 }
 
+.contacto_section {
+    display: flex;
+    width: 80%
+}
+
 .contacto_section img{
     width: 50%;
     margin: 30px;
+ }
 
-    
-    
+ form {
+    background-color: white;
+    border-radius: 3px;
+    color: #999;
+    padding: 10px;
+    margin: 0 auto ;
+    width: 300px;
 }
