@@ -72,6 +72,12 @@ body {
     gap: 17px;
 }
 
+.presentacion_container ion-icon {
+    font-size: 22px;
+    margin-left: 3px;
+    margin-bottom: -4px;
+  }
+
 .presentacion_articulo {
     width: 70%;
 
@@ -116,6 +122,8 @@ body {
 
 .sobremi_container {
     background-color: #EAF2FD;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 
 }
@@ -174,6 +182,90 @@ body {
 
 }
 
+.escuchar_musica{
+    background-image: url(images/hobbies/escuchar\ musica.jfif);
+    background-color: rgba(50, 50, 50, 0.9);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.ver_peliculas{
+    background-image: url(images/hobbies/ver\ peliculas.jpg);
+    background-color: rgba(50, 50, 50, 0.9);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.ver_series{
+    background-image: url(images/hobbies/ver\ series.png);
+    background-color: rgba(50, 50, 50, 0.9);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.jugar_videojuegos{
+    background-image: url(images/hobbies/jugar\ videojuegos.jpg);
+    background-color: rgba(50, 50, 50, 0.9);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.escuchar_podcast{
+    background-image: url(images/hobbies/escucharpodcast.jfif);
+    background-color: rgba(50, 50, 50, 0.9);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.manejar_moto{
+    background-image: url(images/hobbies/manejar\ moto.jfif);
+    background-color: rgba(50, 50, 50, 0.9);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.box_html{
+    background-color: #F16528;
+}
+
+.box_css{
+    background-color: #238EC6;
+}
+
+.box_javascript{
+    background-color: #F5DD1B;
+}
+
+.box_react{
+    background-color: #4AD5FE;
+}
+
+.box_bootstrap{
+    background-color:#62408D ;
+}
+
+.box_figma{
+    background-color: #A057FF;
+}
+
 .skills_box h3 {
     margin-top: 10px;
 }
@@ -207,7 +299,11 @@ body {
 
 .fa_box img {
     width: 100%;
+    height: 220px;
+    background-position: cover;
 }
+
+
 
 .proyecto_section {
     width: 80%;
@@ -245,20 +341,74 @@ body {
 }
 
 .contacto_section {
+    
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.contacto_titulo{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contacto_formulario{
     display: flex;
-    width: 80%
+    gap: 35px;
+
+    
 }
 
 .contacto_section img{
-    width: 50%;
-    margin: 30px;
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    object-fit: cover;
  }
 
- form {
+ 
+
+ .form {
     background-color: white;
-    border-radius: 3px;
+    border-radius: 15px;
     color: #999;
-    padding: 10px;
+    padding: 20px;
     margin: 0 auto ;
-    width: 300px;
+    width: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
 }
+
+.img_form{
+    width: 50%;
+}
+
+.field{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: 3px;
+}
+
+.field:hover{
+    background-color: #F5F5F5;
+    transition: all ease 0.4s;
+}
+textarea{
+    min-height: 100px;
+}
+
+.btn_contacto{
+    padding: 10px 20px;
+    background-color: #0A3871;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
