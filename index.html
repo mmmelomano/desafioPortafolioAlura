@@ -2,20 +2,18 @@
 <html lang="en">
 
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Portafolio Christian Rojas</title>
 </head>
-
 <body>
     <header class="header_container">
         <div class="header_logo">
-            <ion-icon name="finger-print-outline"></ion-icon>
+            <ion-icon size="large" name="finger-print-outline"></ion-icon>
             <span class="header_titulo">Chtistian David Rojas Quiroz</span>
         </div>
-        <div class="header_navbar">
+        <div class="header_navbar" id="menu__navbar">
             <ul class="header_menu">
                 <li class="menu_item"><a href="#sobremi" class="link">Sobre Mi</a></li>
                 <li class="menu_item"><a href="#skills" class="link">Skills</a></li>
@@ -23,40 +21,47 @@
                 <li class="menu_item"><a href="#formacion" class="link">Formacion</a></li>
                 <li class="menu_item"><a href="#proyectos" class="link">Proyectos</a></li>
                 <li class="menu_item"><a href="#contacto" class="link">Contacto</a></li>
-                <li class="menu_item"><a href="#" class="link">kristian.rojasquiroz@gmail.com</a></li>
+                <li class="menu_item"><a href="mailto:kristian.rojasquiroz@gmail.com" class="link">kristian.rojasquiroz@gmail.com</a></li>
             </ul>
         </div>
+        <div class="contenedor__menu" >
+            <ion-icon id="btn__menu" name="menu-outline"></ion-icon>
+        </div>
     </header>
-
     <main class="main_container">
-
         <section class="presentacion_container">
             <article class="presentacion_articulo">
                 <h2 class="presentacion_titulo">Hola, mi nombre es Christian Rojas y construyo paginas Web</h2>
                 <p class="presentacion_parrafo">Actualmente estoy participando del
                     proyecto Oracle One en Alura Latam.</p>
                 <ul class="presentacion_menu">
-                    <li class="presentacion_item"><a href="https://github.com/mmmelomano" class="link">Github</a><ion-icon name="logo-github"></ion-icon></li>
-                    <li class="presentacion_item"><a href="https://www.linkedin.com/in/christian-david-rojas-quiroz-576659147/" class="link">Linkedin</a><ion-icon name="logo-linkedin"></ion-icon></li>
-                    <li class="presentacion_item"><a href="" class="link">Instagram</a><ion-icon name="logo-instagram"></ion-icon></li>
-                    <li class="presentacion_item"><a href="" class="link">Curriculo</a><ion-icon name="document-text-outline"></ion-icon></li>
+                    <li class="presentacion_item"><a target="_blank" href="https://github.com/mmmelomano"
+                            class="link">Github</a><ion-icon name="logo-github"></ion-icon></li>
+                    <li class="presentacion_item"><a target="_blank"
+                            href="https://www.linkedin.com/in/christian-david-rojas-quiroz-576659147/"
+                            class="link">Linkedin</a><ion-icon name="logo-linkedin"></ion-icon></li>
+                    <li class="presentacion_item"><a target="_blank" href="https://www.instagram.com/kristianroxaskiroz/" class="link">Instagram</a><ion-icon
+                            name="logo-instagram"></ion-icon></li>
+                    <li class="presentacion_item"><a target="_blank" href="https://www.linkedin.com/in/christian-david-rojas-quiroz-576659147/" class="link">Curriculo</a><ion-icon
+                            name="document-text-outline"></ion-icon></li>
                 </ul>
             </article>
             <div class="presentacion_foto">
                 <img src="images/fotoperfil.jpg" alt="foto de perfil">
             </div>
         </section>
-
+        
         <section class="sobremi_container" id="sobremi">
             <article class="sobremi_articulo">
                 <h2 class="sobremi_titulo">Sobre mi</h2>
                 <p class="sobremi_parrafo">
-                    ¡Hola a todos! Mi nombre es Christian y estoy emocionado de estar aquí hoy para compartir mi viaje como estudiante de programación. Desde que era un niño, siempre he sentido una pasión por la tecnología y el mundo digital. Hoy, quiero llevarlos a un recorrido por mi experiencia en la programación, mis logros, desafíos y metas.
+                    ¡Hola a todos! Mi nombre es Christian y estoy emocionado de estar aquí hoy para compartir mi viaje
+                    como estudiante de programación. Desde que era un niño, siempre he sentido una pasión por la
+                    tecnología y el mundo digital. Hoy, quiero llevarlos a un recorrido por mi experiencia en la
+                    programación, mis logros, desafíos y metas.
                 </p>
             </article>
-            
         </section>
-
         <section class="skills_section" id="skills">
             <h2 class="skills_titulo">Skills</h2>
             <div class="skills_container">
@@ -86,7 +91,6 @@
                 </div>
             </div>
         </section>
-
         <section class="skills_section" id="hobbies">
             <h2 class="skills_titulo">Hobbies</h2>
             <div class="skills_container">
@@ -116,7 +120,6 @@
                 </div>
             </div>
         </section>
-
         <section class="formacionacademica_container" id="formacion">
             <h2 class="formacionacademica_titulo">Formacion Academica</h2>
             <div class="formacionacademica_box">
@@ -125,7 +128,7 @@
                     <h3>Desarrollo Personal</h3>
                 </div>
                 <div class="fa_box">
-                    <img  src="images/formacion academica/emprendimiento.jfif" alt="">
+                    <img src="images/formacion academica/emprendimiento.jfif" alt="">
                     <h3>Emprendimiento</h3>
                 </div>
                 <div class="fa_box">
@@ -149,39 +152,38 @@
                     <h3>JavaScript</h3>
                 </div>
                 <div class="fa_box">
-                <img src="images/formacion academica/react.jfif" alt="">
-                <h3>React</h3>
+                    <img src="images/formacion academica/react.jfif" alt="">
+                    <h3>React</h3>
                 </div>
             </div>
-            
-
             </div>
         </section>
-
-        <section class="proyecto_section" id="proyectos">
-            <article>
-                <h2 class="proyecto_titulo">Proyectos</h2>
-            </article>
-            <div class="proyecto_box">
-                <div class="proyecto_img">
-                    <img src="images/experiencia profesional/codigosecreto.png" alt="">
+        <section class="proyectos_section">
+            <h2 class="titulo_proyectos">Proyectos</h2>
+            <div class="proyectos_container">
+                <div class="box-project">
+                    <div class="box_1">
+                        <h4>Encriptador</h4>
+                        <a target="_blank"
+                            href="https://github.com/mmmelomano/desafioalura_christian_encriptador.git">Repositorio</a>
+                        <a target="_blank" href="https://mmmelomano.github.io/desafioalura_christian_encriptador/">Ver
+                            Demo</a>
+                    </div>
+                    <div class="box_2">
+                        <img src="images/experiencia profesional/encriptador.png" alt="">
+                    </div>
                 </div>
-                <div class="proyecto_btn">
-                    <h4>encriptador de texto</h4>
-                    <a target="_blank" href="#">repositorio</a><a target="_blank" href="#">ver demo</a>
+                <div class="box-project">
+                    <div class="box_2">
+                        <img src="images/experiencia profesional/chrismovie.png" alt="">
+                    </div>
+                    <div class="box_1">
+                        <h4>Chrismovie</h4>
+                        <a target="_blank" href="https://github.com/mmmelomano/proyectoChrisMovie.git">Repositorio</a>
+                        <a target="_blank" href="https://mmmelomano.github.io/proyectoChrisMovie/">Ver Demo</a>
+                    </div>
                 </div>
             </div>
-           
-            <div class="proyecto_box">
-                <div class="proyecto_img">
-                    <img src="images/experiencia profesional/encriptador.png" alt="">
-                </div>
-                <div class="proyecto_btn">
-                    <h4>encriptador de texto</h4>
-                    <a target="_blank" href="#">repositorio</a><a target="_blank" href="#">ver demo</a>
-                </div>
-            </div>
-            
         </section>
 
         <section class="contacto_section" id="contacto">
@@ -195,28 +197,27 @@
                 <div class="form">
                     <form action="">
                         <p>Nombre</p>
-                        <input type="text" class="field" placeholder="ingrese su nombre"> <br>
-    
+                        <input type="text" class="field" id="nombre" placeholder="ingrese su nombre" value=""> <br>
+
                         <p>Correo Electronico</p>
-                        <input type="text" class="field" placeholder="ingrese su correo"> <br>
-    
+                        <input type="text" class="field" id="correo" placeholder="ingrese su correo"> <br>
+
                         <p>Asunto</p>
-                        <input type="text" class="field" placeholder="asunto"> <br>
-    
+                        <input type="text" class="field" id="asunto" placeholder="asunto"> <br>
+
                         <p>Mensaje</p>
-                        <textarea class="field textarea" placeholder="mensaje"></textarea> <br>
-    
-                        <p class="btn_class"> 
-                            <input type="submit" class="btn_contacto" value="Enviar Datos">
+                        <textarea class="field textarea" id="mensaje" placeholder="mensaje"></textarea> <br>
+
+                        <p class="btn_class">
+                            <input type="submit" class="btn_contacto" id="btn__enviar" value="Enviar Datos">
                         </p>
                 </div>
             </div>
-            
         </section>
-
     </main>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
